@@ -7,12 +7,49 @@
 <body>
     <h1>SIGN UP FORM</h1>
     <form action="." method="post">
-        <p><input type="text" placeholder="Enter Firstname"></p>
-        <p><input type="text" placeholder="Enter Lastname"></p>
-        <p><input type="email" placeholder="Enter E-mail Address"></p>
-        <p> <input type="password" placeholder="Enter Password"></p>
+        <p>
+            <label for="firstName">First Name:</label>
+            <input name="firstname" id="firstName" type="text" placeholder="Enter Firstname">
+        </p>
+        <p>
+            <label for="lastName">Last Name:</label>
+            <input name="lastname" id="lastName" type="text" placeholder="Enter Lastname">
+        </p>
+        <p>
+            <label for="email">E-mail:</label>
+            <input name="email" id="email" type="email" placeholder="Enter E-mail Address">
+        </p>
+        <p>
+            <label for="password">Password</label>
+            <input name="password" id="password" type="password" placeholder="Enter Password">
+        </p>
+        <p>
+            <label for="country">Country</label>
+            <select name="country" id="country">
+                <option selected disabled>Select Country</option>
+                <option value="Nigeria">Nigeria</option>
+                <option value="Ukraine">Ukraine</option>
+                <option value="United Kingdom">United Kingdom</option>
+                <option value="Germany">Germany</option>
+                <option value="Russia">Russia</option>
+            </select>
+        </p>
+        <p>
+            <input name="terms-and-conditions" id="terms-and-conditions" type="checkbox">
+            <label for="terms-and-conditions">Accept terms and conditions</label>
+        </p>
+        <p>
+            <label>Gender</label>
+        </p>
+        <p>
+            <input type="radio" name="Gender">
+            <label>Male</label>
+        </p>
+        <p>
+            <input type="radio" name="Gender">
+            <label>Female</label>
+        </p>
         <p><button type="submit">SIGN UP</button></p>
-        <p><button type="button">ENTER</button></p>
     </form>
 </body>
 </html>
