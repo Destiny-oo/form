@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Title</title>
@@ -35,19 +35,19 @@
             </select>
         </p>
         <p>
-            <input name="terms-and-conditions" id="terms-and-conditions" type="checkbox">
+            <input value="accepted" required name="terms-and-conditions" id="terms-and-conditions" type="checkbox">
             <label for="terms-and-conditions">Accept terms and conditions</label>
         </p>
         <p>
             <label>Gender</label>
         </p>
         <p>
-            <input type="radio" name="Gender">
-            <label>Male</label>
+            <input value="male" id="male" type="radio" name="gender">
+            <label for="male">Male</label>
         </p>
         <p>
-            <input type="radio" name="Gender">
-            <label>Female</label>
+            <input value="female" id="female" type="radio" name="gender">
+            <label for="female">Female</label>
         </p>
         <p><button type="submit">SIGN UP</button></p>
     </form>
